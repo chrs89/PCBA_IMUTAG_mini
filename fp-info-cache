@@ -1,4 +1,4 @@
-25678789719795725
+25680568842213708
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -59227,6 +59227,13 @@ SOP-8_L5.3-W5.3-P1.27-LS8.0-BL
 8
 8
 EasyEDA
+SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR
+
+
+0
+3
+3
+EasyEDA
 SOT-23-5_L2.9-W1.6-P0.95-LS2.8-BL
 
 
@@ -59245,7 +59252,7 @@ SW-SMD_G-SWITCH_MK-12C02-G015
 
 
 0
-9
+7
 7
 EasyEDA
 SW-SMD_MST-12D18G4-SPDT-SLIDE-SWITCH
@@ -59259,7 +59266,7 @@ SW-SMD_TS-1086EV-AR03526
 
 
 0
-7
+5
 5
 EasyEDA
 UQFN-10_L2.0-W1.5-P0.50-BL-EP
@@ -59273,7 +59280,7 @@ USB-C_SMD-TYPE-C-31-M-12_1
 
 
 0
-18
+16
 16
 EasyEDA
 VLGA-12_L2.0-W2.0-P0.50-BL

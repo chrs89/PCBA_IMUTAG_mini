@@ -1,0 +1,32 @@
+# KiCad backups and autosaves
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.sch-bak
+*.pcb-bak
+*-backups/
+_autosave-*
+*.autosave
+
+# KiCad generated outputs
+*.net
+*.dsn
+*.ses
+
+# Fabrication / export outputs
+gerbers/
+fab/
+production/
+outputs/
+plot/
+plots/
+bom/
+*.zip
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/

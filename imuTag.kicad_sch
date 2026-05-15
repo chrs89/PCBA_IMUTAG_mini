@@ -7174,6 +7174,16 @@
 		)
 		(uuid "ce12aba6-f834-41a3-8885-237476e96f9a")
 	)
+	(label "VCC"
+		(at 60.9612 127.7845 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cfae994b-48d3-4c30-93ac-c831910b9bfb")
+	)
 	(label "SWDIO"
 		(at 240.03 35.56 0)
 		(effects
@@ -7263,6 +7273,16 @@
 			(justify right bottom)
 		)
 		(uuid "ebdbaf78-c96b-4659-bb7f-34f76d140353")
+	)
+	(label "VBAT"
+		(at 24.1094 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "efbefe92-0da4-4fba-95ac-77a8ec75918c")
 	)
 	(label "QSPI_IO1"
 		(at 43.18 172.72 180)

@@ -6614,6 +6614,16 @@
 		)
 		(uuid "0638794d-8b1d-48c2-a05b-5d478b00f45a")
 	)
+	(label "VBAT1"
+		(at 45.7982 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "081c8e2c-68ac-4707-a3a4-f6bc6f798052")
+	)
 	(label "QSPI_IO2"
 		(at 240.03 43.18 0)
 		(effects
@@ -6964,16 +6974,6 @@
 		)
 		(uuid "848b5eb2-19f9-4cd5-8c41-7b9b6c1ffc12")
 	)
-	(label "VBAT"
-		(at 46.99 124.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "859295ca-2bb1-4349-8d95-24f3d2fdbb0f")
-	)
 	(label "SPI1_SCLK"
 		(at 180.34 34.29 180)
 		(effects
@@ -7174,7 +7174,7 @@
 		)
 		(uuid "ce12aba6-f834-41a3-8885-237476e96f9a")
 	)
-	(label "VCC"
+	(label "VCC_1"
 		(at 60.9612 127.7845 0)
 		(effects
 			(font

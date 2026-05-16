@@ -30,3 +30,9 @@ Thumbs.db
 # Editor files
 .vscode/
 .idea/
+
+# KiCad temporary/lock/autosave files
+*.lck
+~*.lck
+#auto_saved_files#
+fp-info-cache

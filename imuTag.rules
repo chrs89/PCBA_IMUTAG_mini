@@ -20,7 +20,7 @@
     (clearance 150.0 (type VBAT,Default))
     (clearance 150.0 (type VCC))
   )
-  (padstack "Via[0-5]_600:300_um"
+  (padstack "Via[0-3]_600:300_um"
     (shape
       (circle F.Cu 600.0 0.0 0.0)
     )
@@ -31,17 +31,11 @@
       (circle In2.Cu 600.0 0.0 0.0)
     )
     (shape
-      (circle In3.Cu 600.0 0.0 0.0)
-    )
-    (shape
-      (circle In4.Cu 600.0 0.0 0.0)
-    )
-    (shape
       (circle B.Cu 600.0 0.0 0.0)
     )
     (attach off)
   )
-  (padstack "Via[0-5]_500:300_um"
+  (padstack "Via[0-3]_500:300_um"
     (shape
       (circle F.Cu 500.0 0.0 0.0)
     )
@@ -52,17 +46,11 @@
       (circle In2.Cu 500.0 0.0 0.0)
     )
     (shape
-      (circle In3.Cu 500.0 0.0 0.0)
-    )
-    (shape
-      (circle In4.Cu 500.0 0.0 0.0)
-    )
-    (shape
       (circle B.Cu 500.0 0.0 0.0)
     )
     (attach off)
   )
-  (padstack "Via[0-5]_600:400_um"
+  (padstack "Via[0-3]_600:400_um"
     (shape
       (circle F.Cu 600.0 0.0 0.0)
     )
@@ -73,159 +61,153 @@
       (circle In2.Cu 600.0 0.0 0.0)
     )
     (shape
-      (circle In3.Cu 600.0 0.0 0.0)
-    )
-    (shape
-      (circle In4.Cu 600.0 0.0 0.0)
-    )
-    (shape
       (circle B.Cu 600.0 0.0 0.0)
     )
     (attach off)
   )
   (via 
-    "Via[0-5]_600:300_um" "Via[0-5]_600:300_um" default
+    "Via[0-3]_600:300_um" "Via[0-3]_600:300_um" default
   )
   (via 
-    "Via[0-5]_500:300_um" "Via[0-5]_500:300_um" default
+    "Via[0-3]_500:300_um" "Via[0-3]_500:300_um" default
   )
   (via 
-    "Via[0-5]_600:400_um" "Via[0-5]_600:400_um" default
+    "Via[0-3]_600:400_um" "Via[0-3]_600:400_um" default
   )
   (via 
-    "Via[0-5]_600:300_um-kicad_default" "Via[0-5]_600:300_um" "kicad_default"
+    "Via[0-3]_600:300_um-kicad_default" "Via[0-3]_600:300_um" "kicad_default"
   )
   (via 
-    "Via[0-5]_500:300_um-kicad_default" "Via[0-5]_500:300_um" "kicad_default"
+    "Via[0-3]_500:300_um-kicad_default" "Via[0-3]_500:300_um" "kicad_default"
   )
   (via 
-    "Via[0-5]_600:400_um-kicad_default" "Via[0-5]_600:400_um" "kicad_default"
+    "Via[0-3]_600:400_um-kicad_default" "Via[0-3]_600:400_um" "kicad_default"
   )
   (via 
-    "Via[0-5]_600:300_um-I2C" "Via[0-5]_600:300_um" I2C
+    "Via[0-3]_600:300_um-I2C" "Via[0-3]_600:300_um" I2C
   )
   (via 
-    "Via[0-5]_500:300_um-I2C" "Via[0-5]_500:300_um" I2C
+    "Via[0-3]_500:300_um-I2C" "Via[0-3]_500:300_um" I2C
   )
   (via 
-    "Via[0-5]_600:400_um-I2C" "Via[0-5]_600:400_um" I2C
+    "Via[0-3]_600:400_um-I2C" "Via[0-3]_600:400_um" I2C
   )
   (via 
-    "Via[0-5]_600:300_um-5V_USB" "Via[0-5]_600:300_um" "5V_USB"
+    "Via[0-3]_600:300_um-5V_USB" "Via[0-3]_600:300_um" "5V_USB"
   )
   (via 
-    "Via[0-5]_500:300_um-5V_USB" "Via[0-5]_500:300_um" "5V_USB"
+    "Via[0-3]_500:300_um-5V_USB" "Via[0-3]_500:300_um" "5V_USB"
   )
   (via 
-    "Via[0-5]_600:400_um-5V_USB" "Via[0-5]_600:400_um" "5V_USB"
+    "Via[0-3]_600:400_um-5V_USB" "Via[0-3]_600:400_um" "5V_USB"
   )
   (via 
-    "Via[0-5]_600:300_um-GPIO" "Via[0-5]_600:300_um" GPIO
+    "Via[0-3]_600:300_um-GPIO" "Via[0-3]_600:300_um" GPIO
   )
   (via 
-    "Via[0-5]_500:300_um-GPIO" "Via[0-5]_500:300_um" GPIO
+    "Via[0-3]_500:300_um-GPIO" "Via[0-3]_500:300_um" GPIO
   )
   (via 
-    "Via[0-5]_600:400_um-GPIO" "Via[0-5]_600:400_um" GPIO
+    "Via[0-3]_600:400_um-GPIO" "Via[0-3]_600:400_um" GPIO
   )
   (via 
-    "Via[0-5]_600:300_um-sensor_data" "Via[0-5]_600:300_um" "sensor_data"
+    "Via[0-3]_600:300_um-sensor_data" "Via[0-3]_600:300_um" "sensor_data"
   )
   (via 
-    "Via[0-5]_500:300_um-sensor_data" "Via[0-5]_500:300_um" "sensor_data"
+    "Via[0-3]_500:300_um-sensor_data" "Via[0-3]_500:300_um" "sensor_data"
   )
   (via 
-    "Via[0-5]_600:400_um-sensor_data" "Via[0-5]_600:400_um" "sensor_data"
+    "Via[0-3]_600:400_um-sensor_data" "Via[0-3]_600:400_um" "sensor_data"
   )
   (via 
-    "Via[0-5]_600:300_um-SPI" "Via[0-5]_600:300_um" SPI
+    "Via[0-3]_600:300_um-SPI" "Via[0-3]_600:300_um" SPI
   )
   (via 
-    "Via[0-5]_500:300_um-SPI" "Via[0-5]_500:300_um" SPI
+    "Via[0-3]_500:300_um-SPI" "Via[0-3]_500:300_um" SPI
   )
   (via 
-    "Via[0-5]_600:400_um-SPI" "Via[0-5]_600:400_um" SPI
+    "Via[0-3]_600:400_um-SPI" "Via[0-3]_600:400_um" SPI
   )
   (via 
-    "Via[0-5]_600:300_um-GND" "Via[0-5]_600:300_um" GND
+    "Via[0-3]_600:300_um-GND" "Via[0-3]_600:300_um" GND
   )
   (via 
-    "Via[0-5]_500:300_um-GND" "Via[0-5]_500:300_um" GND
+    "Via[0-3]_500:300_um-GND" "Via[0-3]_500:300_um" GND
   )
   (via 
-    "Via[0-5]_600:400_um-GND" "Via[0-5]_600:400_um" GND
+    "Via[0-3]_600:400_um-GND" "Via[0-3]_600:400_um" GND
   )
   (via 
-    "Via[0-5]_600:300_um-SPI,Default" "Via[0-5]_600:300_um" SPI,Default
+    "Via[0-3]_600:300_um-SPI,Default" "Via[0-3]_600:300_um" SPI,Default
   )
   (via 
-    "Via[0-5]_500:300_um-SPI,Default" "Via[0-5]_500:300_um" SPI,Default
+    "Via[0-3]_500:300_um-SPI,Default" "Via[0-3]_500:300_um" SPI,Default
   )
   (via 
-    "Via[0-5]_600:400_um-SPI,Default" "Via[0-5]_600:400_um" SPI,Default
+    "Via[0-3]_600:400_um-SPI,Default" "Via[0-3]_600:400_um" SPI,Default
   )
   (via 
-    "Via[0-5]_600:300_um-3.0V" "Via[0-5]_600:300_um" "3.0V"
+    "Via[0-3]_600:300_um-3.0V" "Via[0-3]_600:300_um" "3.0V"
   )
   (via 
-    "Via[0-5]_500:300_um-3.0V" "Via[0-5]_500:300_um" "3.0V"
+    "Via[0-3]_500:300_um-3.0V" "Via[0-3]_500:300_um" "3.0V"
   )
   (via 
-    "Via[0-5]_600:400_um-3.0V" "Via[0-5]_600:400_um" "3.0V"
+    "Via[0-3]_600:400_um-3.0V" "Via[0-3]_600:400_um" "3.0V"
   )
   (via 
-    "Via[0-5]_600:300_um-VBAT,Default" "Via[0-5]_600:300_um" VBAT,Default
+    "Via[0-3]_600:300_um-VBAT,Default" "Via[0-3]_600:300_um" VBAT,Default
   )
   (via 
-    "Via[0-5]_500:300_um-VBAT,Default" "Via[0-5]_500:300_um" VBAT,Default
+    "Via[0-3]_500:300_um-VBAT,Default" "Via[0-3]_500:300_um" VBAT,Default
   )
   (via 
-    "Via[0-5]_600:400_um-VBAT,Default" "Via[0-5]_600:400_um" VBAT,Default
+    "Via[0-3]_600:400_um-VBAT,Default" "Via[0-3]_600:400_um" VBAT,Default
   )
   (via 
-    "Via[0-5]_600:300_um-VCC" "Via[0-5]_600:300_um" VCC
+    "Via[0-3]_600:300_um-VCC" "Via[0-3]_600:300_um" VCC
   )
   (via 
-    "Via[0-5]_500:300_um-VCC" "Via[0-5]_500:300_um" VCC
+    "Via[0-3]_500:300_um-VCC" "Via[0-3]_500:300_um" VCC
   )
   (via 
-    "Via[0-5]_600:400_um-VCC" "Via[0-5]_600:400_um" VCC
+    "Via[0-3]_600:400_um-VCC" "Via[0-3]_600:400_um" VCC
   )
   (via_rule
-    default "Via[0-5]_500:300_um"
+    default "Via[0-3]_500:300_um"
   )
   (via_rule
-    "kicad_default" "Via[0-5]_600:300_um-kicad_default"
+    "kicad_default" "Via[0-3]_600:300_um-kicad_default"
   )
   (via_rule
-    I2C "Via[0-5]_500:300_um-I2C"
+    I2C "Via[0-3]_500:300_um-I2C"
   )
   (via_rule
-    "5V_USB" "Via[0-5]_600:300_um-5V_USB"
+    "5V_USB" "Via[0-3]_600:300_um-5V_USB"
   )
   (via_rule
-    GPIO "Via[0-5]_500:300_um-GPIO"
+    GPIO "Via[0-3]_500:300_um-GPIO"
   )
   (via_rule
-    "sensor_data" "Via[0-5]_500:300_um-sensor_data"
+    "sensor_data" "Via[0-3]_500:300_um-sensor_data"
   )
   (via_rule
-    SPI "Via[0-5]_500:300_um-SPI"
+    SPI "Via[0-3]_500:300_um-SPI"
   )
   (via_rule
-    GND "Via[0-5]_600:400_um-GND"
+    GND "Via[0-3]_600:400_um-GND"
   )
   (via_rule
-    SPI,Default "Via[0-5]_500:300_um-SPI,Default"
+    SPI,Default "Via[0-3]_500:300_um-SPI,Default"
   )
   (via_rule
-    "3.0V" "Via[0-5]_600:400_um-3.0V"
+    "3.0V" "Via[0-3]_600:400_um-3.0V"
   )
   (via_rule
-    VBAT,Default "Via[0-5]_600:400_um-VBAT,Default"
+    VBAT,Default "Via[0-3]_600:400_um-VBAT,Default"
   )
   (via_rule
-    VCC "Via[0-5]_600:400_um-VCC"
+    VCC "Via[0-3]_600:400_um-VCC"
   )
   (class default
     (clearance_class default)
@@ -234,7 +216,7 @@
       (width 150.0)
     )
     (circuit 
-      (use_layer F.Cu In3.Cu B.Cu)
+      (use_layer F.Cu In2.Cu B.Cu)
     )
   )
   (class "kicad_default"
@@ -250,7 +232,7 @@
       (width 150.0)
     )
     (circuit 
-      (use_layer F.Cu In3.Cu B.Cu)
+      (use_layer F.Cu In2.Cu B.Cu)
     )
   )
   (class I2C
@@ -261,7 +243,7 @@
       (width 150.0)
     )
     (circuit 
-      (use_layer F.Cu In3.Cu B.Cu)
+      (use_layer F.Cu In2.Cu B.Cu)
     )
   )
   (class "5V_USB"
@@ -269,10 +251,10 @@
     (clearance_class "5V_USB")
     (via_rule "5V_USB")
     (rule
-      (width 500.0)
+      (width 400.0)
     )
     (circuit 
-      (use_layer F.Cu In3.Cu B.Cu)
+      (use_layer F.Cu In2.Cu B.Cu)
     )
   )
   (class GPIO
@@ -283,7 +265,7 @@
       (width 150.0)
     )
     (circuit 
-      (use_layer F.Cu In3.Cu B.Cu)
+      (use_layer F.Cu In2.Cu B.Cu)
     )
   )
   (class "sensor_data"
@@ -294,7 +276,7 @@
       (width 150.0)
     )
     (circuit 
-      (use_layer F.Cu In3.Cu B.Cu)
+      (use_layer F.Cu In2.Cu B.Cu)
     )
   )
   (class SPI
@@ -306,7 +288,7 @@
       (width 150.0)
     )
     (circuit 
-      (use_layer F.Cu In3.Cu B.Cu)
+      (use_layer F.Cu In2.Cu B.Cu)
     )
   )
   (class GND
@@ -314,10 +296,10 @@
     (clearance_class GND)
     (via_rule GND)
     (rule
-      (width 500.0)
+      (width 400.0)
     )
     (circuit 
-      (use_layer F.Cu In3.Cu B.Cu)
+      (use_layer F.Cu In2.Cu B.Cu)
     )
   )
   (class SPI,Default
@@ -328,7 +310,7 @@
       (width 150.0)
     )
     (circuit 
-      (use_layer F.Cu In3.Cu B.Cu)
+      (use_layer F.Cu In2.Cu B.Cu)
     )
   )
   (class "3.0V"
@@ -336,10 +318,10 @@
     (clearance_class "3.0V")
     (via_rule "3.0V")
     (rule
-      (width 500.0)
+      (width 400.0)
     )
     (circuit 
-      (use_layer F.Cu In3.Cu B.Cu)
+      (use_layer F.Cu In2.Cu B.Cu)
     )
   )
   (class VBAT,Default
@@ -347,10 +329,10 @@
     (clearance_class VBAT,Default)
     (via_rule VBAT,Default)
     (rule
-      (width 500.0)
+      (width 400.0)
     )
     (circuit 
-      (use_layer F.Cu In3.Cu B.Cu)
+      (use_layer F.Cu In2.Cu B.Cu)
     )
   )
   (class VCC
@@ -358,10 +340,10 @@
     (clearance_class VCC)
     (via_rule VCC)
     (rule
-      (width 500.0)
+      (width 400.0)
     )
     (circuit 
-      (use_layer F.Cu In3.Cu B.Cu)
+      (use_layer F.Cu In2.Cu B.Cu)
     )
   )
 )

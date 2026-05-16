@@ -8,10 +8,20 @@
 _autosave-*
 *.autosave
 
-# KiCad generated outputs
+# KiCad temporary/lock/cache files
+*.lck
+~*.lck
+#auto_saved_files#
+fp-info-cache
+
+# KiCad generated / external-router files
 *.net
 *.dsn
 *.ses
+
+# Reports / logs
+*.rpt
+*.log
 
 # Fabrication / export outputs
 gerbers/
@@ -23,6 +33,11 @@ plots/
 bom/
 *.zip
 
+# Local plugins / tool binaries
+plugins/
+resources/app_freerouting_kicad-plugin/
+*.jar
+
 # OS files
 .DS_Store
 Thumbs.db
@@ -30,9 +45,3 @@ Thumbs.db
 # Editor files
 .vscode/
 .idea/
-
-# KiCad temporary/lock/autosave files
-*.lck
-~*.lck
-#auto_saved_files#
-fp-info-cache

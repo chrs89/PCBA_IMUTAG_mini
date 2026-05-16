@@ -6674,16 +6674,6 @@
 		)
 		(uuid "1044f85c-30b9-4b75-8497-03c8bab34cf9")
 	)
-	(label "LSM6DSV16_INT2"
-		(at 240.03 33.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "122bac13-3d31-4c6c-a33b-dc3e66042f11")
-	)
 	(label "LSM6DSV16_CS"
 		(at 180.34 36.83 180)
 		(effects
@@ -6733,6 +6723,16 @@
 			(justify right bottom)
 		)
 		(uuid "303aa1bf-4210-43b9-b72b-f82b306b68a6")
+	)
+	(label "LIS2MDL_INT"
+		(at 240.03 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "37ad6e09-439c-4ae9-a811-ebbbfd264073")
 	)
 	(label "USB_D-"
 		(at 240.03 55.88 0)
@@ -6883,6 +6883,16 @@
 			(justify left bottom)
 		)
 		(uuid "6021d541-22b2-4344-8e98-d7be267d2cfb")
+	)
+	(label "LSM6DSV16_INT2"
+		(at 203.2 69.85 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6346b55b-498c-4e78-a508-26c698941f81")
 	)
 	(label "AI4"
 		(at 189.23 121.92 180)
@@ -7184,6 +7194,16 @@
 		)
 		(uuid "cfae994b-48d3-4c30-93ac-c831910b9bfb")
 	)
+	(label "LSM6DSV16_INT2"
+		(at 205.74 69.85 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d0d923fb-993f-4e82-9b30-aa5e611c7f2b")
+	)
 	(label "SWDIO"
 		(at 240.03 35.56 0)
 		(effects
@@ -7193,16 +7213,6 @@
 			(justify left bottom)
 		)
 		(uuid "d371898b-2b07-459d-acec-533e177f72b4")
-	)
-	(label "LIS2MDL_INT"
-		(at 203.2 69.85 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d74408c0-ffa3-4dbd-ac5a-c4f72ae705cc")
 	)
 	(label "SPI1_MISO"
 		(at 159.004 129.54 0)

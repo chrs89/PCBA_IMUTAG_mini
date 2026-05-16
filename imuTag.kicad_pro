@@ -68,7 +68,48 @@
           "width": 0.25
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|153116247|108511550|839bdd88-f59c-4f25-904d-b5edcb24407b|b269b84a-a4eb-4c40-bd14-308275504645",
+          ""
+        ],
+        [
+          "clearance|154773458|89051615|7fc602a8-2180-4f52-b1b3-cb86c61117a7|0cc8832c-d2c4-42c0-99ec-f5e36ca7786b",
+          ""
+        ],
+        [
+          "clearance|155582626|112033904|11e82381-8f23-46a5-a2b2-bf650cb99a49|55e0d7c7-5d33-4efd-92b0-32cde6e4bbd7",
+          ""
+        ],
+        [
+          "clearance|157814017|86011056|0c2c27de-2be8-47af-aa7a-d3d30bdb7abc|eadcee4e-5096-4b5a-abf3-2150ea5ab972",
+          ""
+        ],
+        [
+          "clearance|166695952|88064144|a54a9700-a2c4-488a-bbb2-d1191f0ce062|23208b1e-a5fd-4171-b517-c000de28957e",
+          ""
+        ],
+        [
+          "clearance|167695800|88064056|23208b1e-a5fd-4171-b517-c000de28957e|33c9c334-8083-4bdf-9473-cac2ed57ef8c",
+          ""
+        ],
+        [
+          "clearance|171495800|86764056|836c3980-9289-4368-90eb-2382feb31ec2|8e8b67b6-f085-46ec-a739-80dce1a8f00c",
+          ""
+        ],
+        [
+          "clearance|172495877|88063966|a25e9b8a-1dbc-4d2d-991f-a82d28bb66bc|836c3980-9289-4368-90eb-2382feb31ec2",
+          ""
+        ],
+        [
+          "hole_clearance|166695952|86764172|2ee5f3dc-1e6e-4d7b-a033-6ed28cdcd664|a54a9700-a2c4-488a-bbb2-d1191f0ce062",
+          ""
+        ],
+        [
+          "hole_clearance|172495877|86764121|d61cdb1d-3ca1-4ae5-b791-cf35c292930f|a25e9b8a-1dbc-4d2d-991f-a82d28bb66bc",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -527,7 +568,7 @@
         "microvia_drill": 0.1,
         "name": "3.0V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
         "via_diameter": 0.6,
@@ -544,7 +585,7 @@
         "microvia_drill": 0.1,
         "name": "5V_USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 9,
+        "priority": 10,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
         "via_diameter": 0.6,
@@ -561,7 +602,7 @@
         "microvia_drill": 0.1,
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 8,
+        "priority": 9,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
         "via_diameter": 0.6,
@@ -578,7 +619,7 @@
         "microvia_drill": 0.1,
         "name": "GPIO",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
+        "priority": 8,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.5,
@@ -595,7 +636,7 @@
         "microvia_drill": 0.1,
         "name": "I2C",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
         "via_diameter": 0.5,
@@ -612,7 +653,7 @@
         "microvia_drill": 0.1,
         "name": "QSPI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
         "via_diameter": 0.5,
@@ -629,7 +670,7 @@
         "microvia_drill": 0.1,
         "name": "SPI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
         "via_diameter": 0.5,
@@ -646,12 +687,26 @@
         "microvia_drill": 0.1,
         "name": "USB_data",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.5,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.4,
+        "microvia_drill": 0.1,
+        "name": "VBAT",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "via_diameter": 0.6,
+        "via_drill": 0.4
       },
       {
         "bus_width": 12,
@@ -663,7 +718,7 @@
         "microvia_drill": 0.1,
         "name": "VCC",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 10,
+        "priority": 11,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
         "via_diameter": 0.6,
@@ -680,7 +735,7 @@
         "microvia_drill": 0.1,
         "name": "control",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.5,
@@ -697,7 +752,7 @@
         "microvia_drill": 0.1,
         "name": "sensor_data",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.5,
@@ -810,6 +865,14 @@
       {
         "netclass": "3.0V",
         "pattern": "*3V0"
+      },
+      {
+        "netclass": "VBAT",
+        "pattern": "*VBAT*"
+      },
+      {
+        "netclass": "VCC",
+        "pattern": "*VCC_1"
       }
     ]
   },

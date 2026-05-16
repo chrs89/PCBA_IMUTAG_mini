@@ -172,297 +172,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x05_Socket"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x05_Socket"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x05, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x05_Socket_1_1"
-				(polyline
-					(pts
-						(xy -1.27 5.08) (xy -0.508 5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy -0.508 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -0.508 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -5.08) (xy -0.508 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 4.572)
-					(mid -0.5058 5.08)
-					(end 0 5.588)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 2.032)
-					(mid -0.5058 2.54)
-					(end 0 3.048)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -0.508)
-					(mid -0.5058 0)
-					(end 0 0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -3.048)
-					(mid -0.5058 -2.54)
-					(end 0 -2.032)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -5.588)
-					(mid -0.5058 -5.08)
-					(end 0 -4.572)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_02x05_Odd_Even"
 			(pin_names
 				(offset 1.016)
@@ -5507,8 +5216,16 @@
 		(uuid "ee7e0c4e-2530-44e2-a300-e4821ac684ac")
 	)
 	(no_connect
+		(at 180.34 54.61)
+		(uuid "0a4c7fd7-90df-4e9e-bc38-17e0be63af68")
+	)
+	(no_connect
 		(at 240.03 20.32)
 		(uuid "0b3c7632-220f-482d-b93a-f4e3b98e3171")
+	)
+	(no_connect
+		(at 180.34 46.99)
+		(uuid "105a0eef-ffb0-4aa5-b773-38f061c3d744")
 	)
 	(no_connect
 		(at 193.04 69.85)
@@ -5517,6 +5234,10 @@
 	(no_connect
 		(at 222.377 152.146)
 		(uuid "1ec5d101-0987-47dc-8b43-3ba2284c7ddc")
+	)
+	(no_connect
+		(at 180.34 52.07)
+		(uuid "31b56cc0-4963-4095-9432-937114fa08be")
 	)
 	(no_connect
 		(at 235.077 149.606)
@@ -5547,12 +5268,20 @@
 		(uuid "7863f84d-e61e-4e4d-b125-80876642126f")
 	)
 	(no_connect
+		(at 180.34 49.53)
+		(uuid "7c58dea2-2e7b-4c03-b80c-021715667c9f")
+	)
+	(no_connect
 		(at 80.01 101.6)
 		(uuid "832397e0-0c99-4880-8298-b0076a676b57")
 	)
 	(no_connect
 		(at 222.377 154.686)
 		(uuid "8e4f9a92-dc8d-467d-900c-d9c9efd2891e")
+	)
+	(no_connect
+		(at 180.34 39.37)
+		(uuid "942f9b92-21a4-49d1-98e8-10c655ff576d")
 	)
 	(no_connect
 		(at 78.74 46.99)
@@ -6604,16 +6333,6 @@
 		)
 		(uuid "056257e4-2a74-4275-b657-d13092d171fe")
 	)
-	(label "AI5"
-		(at 189.23 124.46 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0638794d-8b1d-48c2-a05b-5d478b00f45a")
-	)
 	(label "VBAT1"
 		(at 45.7982 124.46 0)
 		(effects
@@ -6663,16 +6382,6 @@
 			(justify left bottom)
 		)
 		(uuid "0c670a53-5e47-4699-b79d-e926dee46845")
-	)
-	(label "AI6"
-		(at 189.23 127 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1044f85c-30b9-4b75-8497-03c8bab34cf9")
 	)
 	(label "LSM6DSV16_CS"
 		(at 180.34 36.83 180)
@@ -6834,16 +6543,6 @@
 		)
 		(uuid "4aba7363-2962-465a-88d5-6cc6e8e90a0f")
 	)
-	(label "AI0"
-		(at 180.34 46.99 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4e6b2100-91c5-4d74-8db1-d191517dab44")
-	)
 	(label "I2C0_SCL"
 		(at 240.03 22.86 0)
 		(effects
@@ -6894,16 +6593,6 @@
 		)
 		(uuid "6346b55b-498c-4e78-a508-26c698941f81")
 	)
-	(label "AI4"
-		(at 189.23 121.92 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "681c1c05-54b4-4552-bd31-b3c830df8762")
-	)
 	(label "BATTERY_PIN"
 		(at 208.28 69.85 270)
 		(effects
@@ -6933,16 +6622,6 @@
 			(justify left bottom)
 		)
 		(uuid "75961f78-b846-4f27-adb5-8d9f4577b9e2")
-	)
-	(label "AI7"
-		(at 180.34 52.07 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7d53ab36-39e4-4c06-be2a-a3905a92986c")
 	)
 	(label "LIS2MDL_CS"
 		(at 159.004 115.57 0)
@@ -7064,16 +6743,6 @@
 		)
 		(uuid "9f17187a-cb2c-478f-907b-dff6d6f03d28")
 	)
-	(label "AI7"
-		(at 189.23 129.54 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a295bf3f-b7a5-4d18-bb57-3bc779fad349")
-	)
 	(label "SPI1_MOSI"
 		(at 180.34 31.75 180)
 		(effects
@@ -7104,16 +6773,6 @@
 		)
 		(uuid "b064ccd8-fd3c-46fd-81d6-6d2b8286ca98")
 	)
-	(label "AI5"
-		(at 180.34 49.53 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b427dc7a-4c4e-4047-9ed0-dc66c8346d7d")
-	)
 	(label "QSPI_IO2"
 		(at 43.18 175.26 180)
 		(effects
@@ -7123,26 +6782,6 @@
 			(justify right bottom)
 		)
 		(uuid "bb9d464c-d6a3-420a-993f-4dc0d278f57e")
-	)
-	(label "AI4"
-		(at 180.34 39.37 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bbf114e6-2156-424f-a145-80a9ef04cb86")
-	)
-	(label "AI6"
-		(at 180.34 54.61 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bdbe42ed-0a42-4ef9-ab8d-903087e6dea5")
 	)
 	(label "I2C0_SDA"
 		(at 240.03 27.94 0)
@@ -7304,16 +6943,6 @@
 		)
 		(uuid "f044ff3a-7447-457b-8166-1be322e6212b")
 	)
-	(label "AI0"
-		(at 189.23 119.38 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f541a6df-003c-4de4-970f-1ac92ddca012")
-	)
 	(label "I2C0_SCL"
 		(at 159.004 113.03 0)
 		(effects
@@ -7349,7 +6978,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 246.507 125.476 0)
 			(effects
 				(font
@@ -7979,7 +7608,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 195.2752 95.25 0)
 			(effects
 				(font
@@ -8116,7 +7745,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 35.56 156.972 90)
 			(effects
 				(font
@@ -8534,7 +8163,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 99.3648 170.18 0)
 			(effects
 				(font
@@ -8604,7 +8233,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 228.219 117.221 0)
 			(effects
 				(font
@@ -8803,7 +8432,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 228.219 128.143 0)
 			(effects
 				(font
@@ -8872,7 +8501,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 59.182 64.77 90)
 			(effects
 				(font
@@ -8941,7 +8570,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 51.7652 40.64 0)
 			(effects
 				(font
@@ -9074,7 +8703,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 27.94 138.938 90)
 			(effects
 				(font
@@ -9522,7 +9151,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 66.802 64.77 90)
 			(effects
 				(font
@@ -9692,84 +9321,6 @@
 			(project "imuTag"
 				(path "/b0790ebf-2d8c-4cec-b4ed-465f5b1bb1fd"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x05_Socket")
-		(at 194.31 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "7c7c3a48-a547-432f-b770-37e01756599c")
-		(property "Reference" "J2"
-			(at 186.182 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x05_Socket"
-			(at 186.182 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
-			(at 194.31 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 194.31 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 194.31 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1f9e7f4c-6128-48ed-806b-91f0a3b36254")
-		)
-		(pin "1"
-			(uuid "eab86ab3-5f0b-4b41-ab72-7a271a7288a4")
-		)
-		(pin "3"
-			(uuid "6c608dc4-b02b-4ca2-94f5-b329f7a75cd6")
-		)
-		(pin "4"
-			(uuid "c9da1070-b022-4447-bc5a-316104f4e76f")
-		)
-		(pin "5"
-			(uuid "0d1afdf1-864c-4559-b842-f63bfd5142e7")
-		)
-		(instances
-			(project ""
-				(path "/b0790ebf-2d8c-4cec-b4ed-465f5b1bb1fd"
-					(reference "J2")
 					(unit 1)
 				)
 			)

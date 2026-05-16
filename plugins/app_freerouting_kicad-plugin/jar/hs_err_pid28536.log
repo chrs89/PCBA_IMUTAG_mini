@@ -1,0 +1,184 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x00007ff87ea8e4f9, pid=28536, tid=5380
+#
+# JRE version: Java(TM) SE Runtime Environment (26.0.1+8) (build 26.0.1+8-34)
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (26.0.1+8-34, mixed mode, sharing, tiered, compressed oops, compressed class ptrs, g1 gc, windows-amd64)
+# Problematic frame:
+# C  [awt.dll+0xde4f9]
+#
+# No core dump will be written. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   https://bugreport.java.com/bugreport/crash.jsp
+# The crash happened outside the Java Virtual Machine in native code.
+# See problematic frame for where to report the bug.
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: .\freerouting-2.2.0.jar
+
+Host: 11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz, 8 cores, 15G,  Windows 11 , 64 bit Build 26100 (10.0.26100.8328)
+Time: Sat May 16 17:44:14 2026 Mitteleuropäische Sommerzeit elapsed time: 7836.282119 seconds (0d 2h 10m 36s)
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0000028b054ec1e0):  JavaThread "AWT-EventQueue-0"        [_thread_in_native, id=5380, stack(0x000000fc53500000,0x000000fc53600000) (1024K)]
+
+Stack: [0x000000fc53500000,0x000000fc53600000],  sp=0x000000fc535ff010,  free space=1020k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+C  [awt.dll+0xde4f9]  (no source info available)
+C  [awt.dll+0xdd8a2]  (no source info available)
+C  0x0000028b6b19d5f3  (no source info available)
+
+The last pc belongs to native method entry point (kind = native) (printed below).
+Java frames: (J=compiled Java code, j=interpreted, Vv=VM code)
+j  sun.awt.Win32GraphicsConfig.getBounds(I)Ljava/awt/Rectangle;+0 java.desktop@26.0.1
+j  sun.awt.Win32GraphicsConfig.getBounds()Ljava/awt/Rectangle;+8 java.desktop@26.0.1
+j  sun.awt.Win32GraphicsDevice.displayChanged()V+23 java.desktop@26.0.1
+j  sun.awt.Win32GraphicsEnvironment.displayChanged()V+271 java.desktop@26.0.1
+j  sun.awt.windows.WToolkit.lambda$displayChanged$0()V+15 java.desktop@26.0.1
+j  sun.awt.windows.WToolkit$$Lambda+0x000000001a552fd8.run()V+0 java.desktop@26.0.1
+j  java.awt.event.InvocationEvent.dispatch()V+47 java.desktop@26.0.1
+J 8255 c2 java.awt.EventQueue.dispatchEvent(Ljava/awt/AWTEvent;)V java.desktop@26.0.1 (48 bytes) @ 0x0000028b6bace19c [0x0000028b6bacdf00+0x000000000000029c]
+J 8278 c2 java.awt.EventDispatchThread.pumpOneEventForFilters(I)V java.desktop@26.0.1 (106 bytes) @ 0x0000028b6bad6278 [0x0000028b6bad5d80+0x00000000000004f8]
+j  java.awt.EventDispatchThread.pumpEventsForFilter(ILjava/awt/Conditional;Ljava/awt/EventFilter;)V+35 java.desktop@26.0.1
+j  java.awt.EventDispatchThread.pumpEventsForHierarchy(ILjava/awt/Conditional;Ljava/awt/Component;)V+11 java.desktop@26.0.1
+j  java.awt.EventDispatchThread.pumpEvents(ILjava/awt/Conditional;)V+4 java.desktop@26.0.1
+j  java.awt.EventDispatchThread.pumpEvents(Ljava/awt/Conditional;)V+3 java.desktop@26.0.1
+j  java.awt.EventDispatchThread.run()V+9 java.desktop@26.0.1
+v  ~StubRoutines::Stub Generator call_stub_stub 0x0000028b6b1918e2
+
+siginfo: EXCEPTION_ACCESS_VIOLATION (0xc0000005), reading address 0x0000000000000028
+
+
+Registers:
+RAX=0x0000000000000000, RBX=0x0000028b098bc280, RCX=0x0000000000000000, RDX=0x0000000000000000
+RSP=0x000000fc535ff010, RBP=0x0000000000000000, RSI=0x0000000000000000, RDI=0x0000000000000000
+R8 =0x0000000000000001, R9 =0x000000fc50704000, R10=0x0000000000000006, R11=0x000000000000002d
+R12=0x0000000000000000, R13=0x0000000000000030, R14=0x0000028b0c6f52b0, R15=0x0000000000000000
+RIP=0x00007ff87ea8e4f9, EFLAGS=0x0000000000010246
+
+XMM[0]=0x0000000000000000 0x0000000000000000
+XMM[1]=0x0000000000000000 0x000000fc535ff0e0
+XMM[2]=0x0000000000000000 0x0000000000000000
+XMM[3]=0x0000000000000000 0x0000000000000000
+XMM[4]=0x0000000000000000 0x0000000000000000
+XMM[5]=0x0000000000000000 0x0000000000000000
+XMM[6]=0x0000000000000000 0x0000000000000000
+XMM[7]=0x0000000000000000 0x0000000000000000
+XMM[8]=0x0000000000000000 0x0000000000000000
+XMM[9]=0x0000000000000000 0x0000000000000000
+XMM[10]=0x0000000000000000 0x0000000000000000
+XMM[11]=0x0000000000000000 0x0000000000000000
+XMM[12]=0x0000000000000000 0x0000000000000000
+XMM[13]=0x0000000000000000 0x0000000000000000
+XMM[14]=0x0000000000000000 0x0000000000000000
+XMM[15]=0x0000000000000000 0x0000000000000000
+  MXCSR=0x00001fa0
+
+
+Register to memory mapping:
+
+RAX=0x0 is null
+RBX=0x0000028b098bc280 points into unknown readable memory: 0x0000028b0b862590 | 90 25 86 0b 8b 02 00 00
+RCX=0x0 is null
+RDX=0x0 is null
+RSP=0x000000fc535ff010 is pointing into the stack for thread: 0x0000028b054ec1e0
+RBP=0x0 is null
+RSI=0x0 is null
+RDI=0x0 is null
+R8 =0x0000000000000001 is an unknown value
+R9 =0x000000fc50704000 points into unknown readable memory: 0x0000000000000000 | 00 00 00 00 00 00 00 00
+R10=0x0000000000000006 is an unknown value
+R11=0x000000000000002d is an unknown value
+R12=0x0 is null
+R13=0x0000000000000030 is an unknown value
+R14=0x0000028b0c6f52b0 points into unknown readable memory: 0x0000000703975278 | 78 52 97 03 07 00 00 00
+R15=0x0 is null
+
+Top of Stack: (sp=0x000000fc535ff010)
+0x000000fc535ff010:   00007ff87eaed838 0000028b098bc280   8..~............
+0x000000fc535ff020:   0000028b0c6f52b0 0000028b098bc280   .Ro.............
+0x000000fc535ff030:   0000028b054ec610 00007ff87ea8d8a2   ..N........~....
+0x000000fc535ff040:   0000028b098bc280 0000028b098bc280   ................
+0x000000fc535ff050:   0000000000000000 0000000000000000   ................
+0x000000fc535ff060:   0000000703976620 0000028b00b94f90    f.......O......
+0x000000fc535ff070:   0000000000000000 000000fc535ff090   .........._S....
+0x000000fc535ff080:   0000000000000000 0000000000000000   ................
+0x000000fc535ff090:   000079a4a4118c08 00000007036e4218   .....y...Bn.....
+0x000000fc535ff0a0:   0000028b054ec1e0 000000fc535ff188   ..N......._S....
+0x000000fc535ff0b0:   0000028b00bce0a8 0000000000000000   ................
+0x000000fc535ff0c0:   0000000000000009 0000000000000000   ................
+0x000000fc535ff0d0:   000000fc535ff160 0000028b6b19d5f3   `._S.......k....
+0x000000fc535ff0e0:   000000fc535ff0f8 0000028b00bce0a8   .._S............
+0x000000fc535ff0f0:   0000028b6b198e18 0000000000000000   ...k............
+0x000000fc535ff100:   00000007036e4218 0000000713e00228   .Bn.....(.......
+0x000000fc535ff110:   0000000713e00228 fffffffffffffff7   (...............
+0x000000fc535ff120:   0000000000000000 0000000000000005   ................
+0x000000fc535ff130:   0000028b00bd08b8 0000000000000000   ................
+0x000000fc535ff140:   0000000703975048 0000028b00bce0a8   HP..............
+0x000000fc535ff150:   0000000000000000 000000fc535ff180   .........._S....
+0x000000fc535ff160:   000000fc535ff1d8 0000028b6b198fb2   .._S.......k....
+0x000000fc535ff170:   0000000000000000 0000028b6b19aa5a   ........Z..k....
+0x000000fc535ff180:   0000000000000000 000000070d600890   ..........`.....
+0x000000fc535ff190:   fffffffffffffff7 0000028b00bce150   ........P.......
+0x000000fc535ff1a0:   0000000000000002 0000028b00bd08b8   ................
+0x000000fc535ff1b0:   0000000000000000 0000000703975048   ........HP......
+0x000000fc535ff1c0:   0000028b00bce168 fffffffffffffff5   h...............
+0x000000fc535ff1d0:   000000fc535ff1e8 000000fc535ff238   .._S....8._S....
+0x000000fc535ff1e0:   0000028b6b198fb2 000000070d600890   ...k......`.....
+0x000000fc535ff1f0:   fffffffffffffff7 0000028b00b94de7   .........M......
+0x000000fc535ff200:   0000000000000003 0000028b00b96528   ........(e......
+
+Instructions: (pc=0x00007ff87ea8e4f9)
+  0x00007ff87ea8e3f9:   cc cc cc cc cc cc cc 48 89 5c 24 08 48 89 6c 24
+  0x00007ff87ea8e409:   10 48 89 74 24 18 57 48 83 ec 20 41 8b f8 0f b6
+  0x00007ff87ea8e419:   f2 48 8b e9 e8 be 9f f4 ff 48 8b d8 48 89 44 24
+  0x00007ff87ea8e429:   48 41 b8 01 00 00 00 8b d7 48 8b c8 e8 16 9f f4
+  0x00007ff87ea8e439:   ff 44 0f b6 c6 48 8b d5 48 8b c8 e8 77 fa ff ff
+  0x00007ff87ea8e449:   48 8b f8 48 8b cb e8 4c a1 f4 ff 90 48 8b c7 48
+  0x00007ff87ea8e459:   8b 5c 24 30 48 8b 6c 24 38 48 8b 74 24 40 48 83
+  0x00007ff87ea8e469:   c4 20 5f c3 cc cc cc 48 8b 49 28 e9 17 07 00 00
+  0x00007ff87ea8e479:   cc cc cc cc cc cc cc 48 89 5c 24 08 57 48 83 ec
+  0x00007ff87ea8e489:   20 8b f9 e8 4f 9f f4 ff 48 8b d8 48 89 44 24 38
+  0x00007ff87ea8e499:   41 b8 01 00 00 00 8b d7 48 8b c8 e8 a7 9e f4 ff
+  0x00007ff87ea8e4a9:   48 8b 08 8b 39 48 8b cb e8 ea a0 f4 ff 90 8b c7
+  0x00007ff87ea8e4b9:   48 8b 5c 24 30 48 83 c4 20 5f c3 cc cc cc cc cc
+  0x00007ff87ea8e4c9:   cc cc cc cc cc cc cc 48 89 5c 24 08 57 48 83 ec
+  0x00007ff87ea8e4d9:   20 8b f9 e8 ff 9e f4 ff 48 8b d8 48 89 44 24 38
+  0x00007ff87ea8e4e9:   41 b8 01 00 00 00 8b d7 48 8b c8 e8 57 9e f4 ff
+=>0x00007ff87ea8e4f9:   48 8b 78 28 48 8b cb e8 9b a0 f4 ff 90 48 8b c7
+  0x00007ff87ea8e509:   48 8b 5c 24 30 48 83 c4 20 5f c3 cc cc cc cc cc
+  0x00007ff87ea8e519:   cc cc cc cc cc cc cc 48 89 5c 24 08 57 48 83 ec
+  0x00007ff87ea8e529:   20 8b f9 e8 af 9e f4 ff 48 8b d8 48 89 44 24 38
+  0x00007ff87ea8e539:   41 b8 01 00 00 00 8b d7 48 8b c8 e8 07 9e f4 ff
+  0x00007ff87ea8e549:   48 8b 78 30 48 8b cb e8 4b a0 f4 ff 90 48 8b c7
+  0x00007ff87ea8e559:   48 8b 5c 24 30 48 83 c4 20 5f c3 cc cc cc cc cc
+  0x00007ff87ea8e569:   cc cc cc cc cc cc cc 48 89 5c 24 08 57 48 83 ec
+  0x00007ff87ea8e579:   20 8b f9 e8 5f 9e f4 ff 48 8b d8 48 89 44 24 38
+  0x00007ff87ea8e589:   41 b8 01 00 00 00 8b d7 48 8b c8 e8 b7 9d f4 ff
+  0x00007ff87ea8e599:   48 8b 78 08 48 85 ff 74 07 48 8b bf 08 0c 00 00
+  0x00007ff87ea8e5a9:   48 8b cb e8 ef 9f f4 ff 90 48 8b c7 48 8b 5c 24
+  0x00007ff87ea8e5b9:   30 48 83 c4 20 5f c3 f3 0f 10 41 48 c3 cc cc cc
+  0x00007ff87ea8e5c9:   cc cc cc cc cc cc cc f3 0f 10 41 4c c3 cc cc cc
+  0x00007ff87ea8e5d9:   cc cc cc cc cc cc cc 48 89 5c 24 10 48 89 74 24
+  0x00007ff87ea8e5e9:   18 55 57 41 56 48 8d 6c 24 e0 48 81 ec 20 01 00
+
+
+Stack slot to memory mapping:
+
+stack at sp + 0 slots: 0x00007ff87eaed838 awt.dll
+stack at sp + 1 slots: 0x0000028b098bc280 points into unknown readable memory: 0x0000028b0b862590 | 90 25 86 0b 8b 02 00 00
+stack at sp + 2 slots: 0x0000028b0c6f52b0 points into unknown readable memory: 0x0000000703975278 | 78 52 97 03 07 00 00 00
+stack at sp + 3 slots: 0x0000028b098bc280 points into unknown readable memory: 0x0000028b0b862590 | 90 25 86 0b 8b 02 00 00
+stack at sp + 4 slots: 0x0000028b054ec610 points into unknown readable memory: 0x00007ff8172a84d0 | d0 84 2a 17 f8 7f 00 00
+stack at sp + 5 slots: 0x00007ff87ea8d8a2 awt.dll
+stack at sp + 6 slots: 0x0000028b098bc280 points into unknown readable memory: 0x0000028b0b862590 | 90 25 86 0b 8b 02 00 00
+stack at sp + 7 slots: 0x0000028b098bc280 points into unknown readable memory: 0x0000028b0b862590 | 90 25 86 0b 8b 02 00 00
+
+Lock stack of current Java thread (top to bottom):
+
+native method entry point (kind = native)  [0x0000028b6b19d220, 0x0000028b6b19de18]  3064 bytes

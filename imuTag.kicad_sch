@@ -6643,7 +6643,7 @@
 		)
 		(uuid "817d105e-2dff-4b11-afdf-2b0854a2554e")
 	)
-	(label "+5V_USB"
+	(label "+5V_USB_prot"
 		(at 62.7201 29.21 180)
 		(effects
 			(font

@@ -70,20 +70,40 @@
       ],
       "drc_exclusions": [
         [
-          "courtyards_overlap|109434817|89934953|78a6cc06-5380-4ed8-a8c3-48f562566696|9ec29758-c702-4a4c-9c62-28f4b945ae1a",
-          "OK only TP"
+          "courtyards_overlap|109434866|89934994|78a6cc06-5380-4ed8-a8c3-48f562566696|9ec29758-c702-4a4c-9c62-28f4b945ae1a",
+          "Bekannt, kein Risiko"
+        ],
+        [
+          "items_not_allowed|128346500|110931600|62d32835-f503-4f43-90fc-454b7e64b29f|00000000-0000-0000-0000-000000000000",
+          "Bekannt, kein Risiko"
+        ],
+        [
+          "lib_footprint_mismatch|120584750|111559900|b0b9c870-ee9a-4fb0-8b26-8e4b0596e464|00000000-0000-0000-0000-000000000000",
+          "Bekannt & OK (Ein Graphik-Element wurde gelöscht. Kein Einfluss auf Funktion)"
+        ],
+        [
+          "lib_footprint_mismatch|123321200|100146200|0879d4b8-6177-45f1-8fe6-df95cfdc64e6|00000000-0000-0000-0000-000000000000",
+          "OK Keep Out wurde manuell hinzugefügt"
         ],
         [
           "lib_footprint_mismatch|127861122|90943438|51e39403-9f75-4ca6-9f9f-cdc857ca8387|00000000-0000-0000-0000-000000000000",
-          "OK - Aufdickung 0.1mm gewollt"
+          "OK Langloch wurde 0.1 mm verbreitert."
         ],
         [
-          "silk_over_copper|120340387|89972541|bece14ae-faed-4bf3-84d7-d36d0afb0d25|00000000-0000-0000-0000-000000000000",
-          "OK"
+          "silk_edge_clearance|112048863|109141215|190169be-6309-4c96-92e7-2fb26150e2e6|07999e58-85a7-419c-83d3-bdebe4c2e173",
+          "Bekannt & OK"
         ],
         [
-          "silk_over_copper|120392594|87356034|5373c3b5-11bc-49fa-8f05-b8f3cc62fb75|00000000-0000-0000-0000-000000000000",
-          ""
+          "silk_over_copper|120340400|89972500|bece14ae-faed-4bf3-84d7-d36d0afb0d25|00000000-0000-0000-0000-000000000000",
+          "OK, Kein Risiko"
+        ],
+        [
+          "silk_over_copper|120392600|87356000|5373c3b5-11bc-49fa-8f05-b8f3cc62fb75|00000000-0000-0000-0000-000000000000",
+          "OK kein Risiko"
+        ],
+        [
+          "silk_overlap|109693287|103175489|07999e58-85a7-419c-83d3-bdebe4c2e173|59e80d9a-0bae-4c31-9b17-8ae03ee94f8d",
+          "OK, Kein Risiko"
         ]
       ],
       "meta": {

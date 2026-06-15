@@ -68,7 +68,24 @@
           "width": 0.25
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|109434817|89934953|78a6cc06-5380-4ed8-a8c3-48f562566696|9ec29758-c702-4a4c-9c62-28f4b945ae1a",
+          "OK only TP"
+        ],
+        [
+          "lib_footprint_mismatch|127861122|90943438|51e39403-9f75-4ca6-9f9f-cdc857ca8387|00000000-0000-0000-0000-000000000000",
+          "OK - Aufdickung 0.1mm gewollt"
+        ],
+        [
+          "silk_over_copper|120340387|89972541|bece14ae-faed-4bf3-84d7-d36d0afb0d25|00000000-0000-0000-0000-000000000000",
+          "OK"
+        ],
+        [
+          "silk_over_copper|120392594|87356034|5373c3b5-11bc-49fa-8f05-b8f3cc62fb75|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },

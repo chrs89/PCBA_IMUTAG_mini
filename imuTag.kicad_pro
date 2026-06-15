@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 3.0,
+          "height": 1.6,
+          "width": 3.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -68,56 +68,7 @@
           "width": 0.25
         }
       ],
-      "drc_exclusions": [
-        [
-          "clearance|153116199|108511549|839bdd88-f59c-4f25-904d-b5edcb24407b|b269b84a-a4eb-4c40-bd14-308275504645",
-          ""
-        ],
-        [
-          "clearance|154773412|89051570|7fc602a8-2180-4f52-b1b3-cb86c61117a7|0cc8832c-d2c4-42c0-99ec-f5e36ca7786b",
-          ""
-        ],
-        [
-          "clearance|155582578|112033903|11e82381-8f23-46a5-a2b2-bf650cb99a49|55e0d7c7-5d33-4efd-92b0-32cde6e4bbd7",
-          ""
-        ],
-        [
-          "clearance|157813971|86011011|0c2c27de-2be8-47af-aa7a-d3d30bdb7abc|eadcee4e-5096-4b5a-abf3-2150ea5ab972",
-          ""
-        ],
-        [
-          "clearance|166949952|87759388|a54a9700-a2c4-488a-bbb2-d1191f0ce062|23208b1e-a5fd-4171-b517-c000de28957e",
-          ""
-        ],
-        [
-          "clearance|172749877|87759210|a25e9b8a-1dbc-4d2d-991f-a82d28bb66bc|836c3980-9289-4368-90eb-2382feb31ec2",
-          ""
-        ],
-        [
-          "hole_clearance|166949952|86459416|2ee5f3dc-1e6e-4d7b-a033-6ed28cdcd664|a54a9700-a2c4-488a-bbb2-d1191f0ce062",
-          ""
-        ],
-        [
-          "hole_clearance|172749877|86459365|d61cdb1d-3ca1-4ae5-b791-cf35c292930f|a25e9b8a-1dbc-4d2d-991f-a82d28bb66bc",
-          ""
-        ],
-        [
-          "starved_thermal|165519800|86349300|f56aaf29-d5aa-4ae5-ace9-b8307cb81222|85fce6ac-4033-4c8e-b81a-ba4b5361f86d|B.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|166086600|93421200|db570ce7-fa37-4a10-88d6-e68f2badd660|e336755b-82b7-4998-b8de-8b45403df089|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|174179800|86349300|db570ce7-fa37-4a10-88d6-e68f2badd660|25648ed2-8645-4bea-88aa-af8768c0ab58|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|174179800|86349300|f56aaf29-d5aa-4ae5-ace9-b8307cb81222|25648ed2-8645-4bea-88aa-af8768c0ab58|B.Cu",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -182,7 +133,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.15,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
@@ -194,10 +145,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
+        "min_through_hole_diameter": 0.2,
+        "min_track_width": 0.15,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_diameter": 0.45,
         "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
@@ -893,7 +844,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "imuTag.dsn",
-      "step": "",
+      "step": "imuTag.step",
       "svg": "",
       "vrml": ""
     },
